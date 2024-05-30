@@ -81,6 +81,47 @@ section nav .btn2:hover {
     background-color: rgb(5, 5, 112);
 }
 
+.bar-lines {
+    display: flex;
+    width: 1%;
+    position: fixed;
+    top: 2.6%;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+
+.bar-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid transparent;
+    background-color: #fff;
+    background-size: cover;
+    margin: 40px -40px;
+    position: absolute;
+    width: 83rem;
+    padding: 0px 20px;
+    transform: translateX(-50px);
+    display: none;
+}
+
+.bar-lines:hover .bar-menu {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bar-menu a {
+    text-decoration: none;
+    color: grey;
+}
+
+.menu-nav {
+    font-size: 15px;
+    border-bottom: 2px solid rgb(88, 86, 86);
+    padding: 5px 5px;
+}
+
 .img-wrapper {
     padding-top: 5%;
 }
@@ -293,6 +334,13 @@ section nav .btn2:hover {
     gap: 3rem;
     padding-left: 6%;
 }
+.max-content1 {
+    background-image: url(assets/blue-bg.png);
+    margin-top: 50px;
+    display: flex;
+    padding: 50px 80px;
+    display: none;
+}
 
 .max-link {
     padding: 6%;
@@ -326,13 +374,15 @@ section nav .btn2:hover {
 .btn5:hover {
     background-color: rgb(109, 206, 245);
 }
-.max-content1{
+
+.max-content1 {
     display: none;
 }
 
 .img-shows2 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
 }
 

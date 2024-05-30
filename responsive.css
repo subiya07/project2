@@ -1,0 +1,524 @@
+@media only screen and (min-width:992px) and (max-width:1300px) {
+    .wrapper {
+        width: 100%;
+        min-width: 135.5vw;
+        height: 85vh;
+    }
+
+    .img-wrapper {
+        padding-top: 7%;
+    }
+
+    /*.bar-lines{
+        display: flex;
+    }
+    .bar-lines:hover .bar-menu{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 140rem;
+    }*/
+    .center {
+        width: 100%;
+        min-width: 117vw;
+    }
+
+    .img-shows {
+        width: 100%;
+        min-width: 134vw;
+    }
+
+    .timetable {
+        width: 100%;
+        min-width: 135.3vw;
+    }
+
+    .time-back {
+        height: 25vh;
+    }
+
+    .max-content {
+        width: 100%;
+        min-width: 135.5vw;
+    }
+
+    .img-shows2 {
+        width: 100%;
+        min-width: 134vw;
+    }
+
+    .max-footer {
+        width: 100%;
+        min-width: 135.5vw;
+    }
+
+    .footer-banner {
+        width: 100%;
+        min-width: 135.5vw;
+    }
+}
+
+@media only Screen and (min-width:769px) and (max-width:991px) {
+    .nav-links {
+        display: none;
+    }
+
+    .bar-lines {
+        display: flex;
+        margin-right: 76%;
+        top: 2.6%
+    }
+
+    .bar-menu {
+        width: 100%;
+        min-width: 75rem;
+        padding: 30px 10px;
+    }
+
+    .menu-nav {
+        padding: 30px 10px;
+    }
+
+    .bar-lines:hover .bar-menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .wrapper {
+        width: 100%;
+        min-width: 164.8vw;
+        height: 80vh;
+    }
+
+    .img-wrapper {
+        padding-top: 8%;
+    }
+
+    .center {
+        width: 100%;
+        min-width: 155vw;
+    }
+
+    .img-shows {
+        width: 100%;
+        min-width: 164vw;
+    }
+
+    .timetable {
+        width: 100%;
+        min-width: 164.8vw;
+    }
+
+    .time-back {
+        height: 25vh;
+    }
+
+    .max-content {
+        width: 100%;
+        min-width: 164.8vw;
+    }
+
+    .img-shows2 {
+        width: 100%;
+        min-width: 164vw;
+    }
+
+    .max-footer {
+        width: 100%;
+        min-width: 164.8vw;
+    }
+
+    .footer-banner {
+        width: 100%;
+        min-width: 164.8vw;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .bar-lines {
+        display: flex;
+        margin-right: 76%;
+        top: 2.6%
+    }
+
+    .bar-menu {
+        width: 100%;
+        min-width: 69rem;
+        padding: 30px 10px;
+    }
+
+    .menu-nav {
+        padding: 30px 10px;
+    }
+
+    .bar-lines:hover .bar-menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .wrapper {
+        width: 100%;
+        min-width: 205vw;
+        height: 85vh;
+    }
+
+    .wrapper-text h4 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-text h1 {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+
+    .wrapper-text p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .btn3 {
+        font-size: 20px;
+    }
+
+    .btn4 {
+        font-size: 20px;
+    }
+
+    .center {
+        width: 100%;
+        min-width: 200vw;
+    }
+
+    .img-shows {
+        width: 100%;
+        min-width: 205vw;
+    }
+
+    .carders h4 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .carders h2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .carders p {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .timetable {
+        width: 100%;
+        min-width: 205vw;
+    }
+
+    .time-back {
+        height: 67vh;
+    }
+
+    .shows-schedule {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .max-content {
+        display: none;
+    }
+
+    .max-content1 {
+        display: block;
+        width: 100%;
+        min-width: 205vw;
+    }
+
+    .max-link {
+        padding: 80px 10px;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    #max-content {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .btn5 {
+        font-size: 20px;
+    }
+
+    .img-shows2 {
+        width: 100%;
+        min-width: 205vw;
+    }
+
+    .carders2 h4 {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .carders2 h2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .carders2 p {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .max-footer {
+        width: 100%;
+        min-width: 205vw;
+    }
+
+    .footer-banner {
+        width: 100%;
+        min-width: 205vw;
+    }
+
+    .footer-banner-content a {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .footer-banner-links a {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .footer-banner-text {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media only screen and (max-width:575px) {
+    .nav-links {
+        display: none;
+    }
+
+    .bar-lines {
+        display: flex;
+        margin-right: 76%;
+        top: 1.6%
+    }
+
+    .bar-menu {
+        width: 100%;
+        min-width: 69rem;
+        padding: 30px 10px;
+    }
+
+    .menu-nav {
+        padding: 30px 10px;
+    }
+
+    .bar-lines:hover .bar-menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .btn1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .btn2 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper {
+        width: 100%;
+        min-width: 317vw;
+        height: 85vh;
+    }
+
+    .wrapper-text {
+        height: 124%;
+    }
+
+    .wrapper-text h4 {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-text h1 {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-text p {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    .btn3 {
+        font-size: 20px;
+    }
+
+    .btn4 {
+        font-size: 20px;
+    }
+
+    .center {
+        width: 100%;
+        min-width: 300vw;
+    }
+    section .imges{
+        width: 317%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .img-shows {
+        width: 100%;
+        min-width: 300vw;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .carders {
+        width: 44.4%;
+    }
+
+    .carders img {
+        height: 52vh;
+    }
+
+    .carders h4 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .carders h2 {
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+
+    .carders p {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    .timetable {
+        width: 100%;
+        min-width: 317vw;
+    }
+
+    .time-back {
+        height: 67vh;
+    }
+
+    .shows-schedule {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .schedule-text {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .shows-schedule span {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .shows-schedule p {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+
+    .max-content {
+        display: none;
+    }
+
+    .max-content1 {
+        display: block;
+        width: 100%;
+        min-width: 317vw;
+    }
+
+    .max-link {
+        padding: 80px 10px;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    #max-content {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .btn5 {
+        font-size: 20px;
+    }
+
+    .img-shows2 {
+        width: 100%;
+        min-width: 317vw;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .carders2 {
+        width: 55.4%;
+    }
+
+    .carders2 img {
+        height: 45vh;
+    }
+
+    .carders2 h4 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .carders2 h2 {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    .carders2 p {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    .max-footer {
+        width: 100%;
+        min-width: 317vw;
+    }
+
+    .footer-banner {
+        width: 100%;
+        min-width: 317vw;
+    }
+
+    .footer-banner-content a {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .footer-banner-links a {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .footer-banner-text {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
