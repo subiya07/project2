@@ -126,6 +126,7 @@ section nav .btn2:hover {
 
 .img-pack4 {
     display: flex;
+    justify-content: center;
     margin: 3%;
     position: relative;
     padding: 30px 85px;

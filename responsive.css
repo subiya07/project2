@@ -1,81 +1,34 @@
 @media only screen and (min-width:992px) and (max-width:1300px) {
-    .wrapper {
-        width: 100%;
-        min-width: 135.5vw;
-        height: 85vh;
-    }
-
-    .img-wrapper {
-        padding-top: 7%;
-    }
-
-    /*.bar-lines{
-        display: flex;
-    }
-    .bar-lines:hover .bar-menu{
-        display: flex;
-        flex-wrap: nowrap;
-        width: 140rem;
-    }*/
-    .center {
-        width: 100%;
-        min-width: 117vw;
-    }
-
-    .img-shows {
-        width: 100%;
-        min-width: 134vw;
-    }
-
-    .timetable {
-        width: 100%;
-        min-width: 135.3vw;
-    }
-
-    .time-back {
-        height: 25vh;
-    }
-
-    .max-content {
-        width: 100%;
-        min-width: 135.5vw;
-    }
-
-    .img-shows2 {
-        width: 100%;
-        min-width: 134vw;
-    }
-
-    .max-footer {
-        width: 100%;
-        min-width: 135.5vw;
-    }
-
-    .footer-banner {
-        width: 100%;
-        min-width: 135.5vw;
-    }
-}
-
-@media only Screen and (min-width:769px) and (max-width:991px) {
     .nav-links {
         display: none;
     }
 
     .bar-lines {
         display: flex;
-        margin-right: 76%;
-        top: 2.6%
+        width: 90%;
+        top: 1.6%;
+        font-size: 30px;
+    }
+
+    section nav .btn2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    section nav .btn1 {
+        font-size: 25px;
+        font-weight: 600;
     }
 
     .bar-menu {
         width: 100%;
-        min-width: 75rem;
-        padding: 30px 10px;
+        min-width: 72rem;
+        padding: 10px 53px;
     }
 
     .menu-nav {
-        padding: 30px 10px;
+        padding: 19px 39px;
+        font-size: 25px;
     }
 
     .bar-lines:hover .bar-menu {
@@ -85,99 +38,30 @@
 
     .wrapper {
         width: 100%;
-        min-width: 164.8vw;
-        height: 80vh;
     }
 
-    .img-wrapper {
-        padding-top: 8%;
-    }
-
-    .center {
+    .wrapper-text {
         width: 100%;
-        min-width: 155vw;
-    }
-
-    .img-shows {
-        width: 100%;
-        min-width: 164vw;
-    }
-
-    .timetable {
-        width: 100%;
-        min-width: 164.8vw;
-    }
-
-    .time-back {
-        height: 25vh;
-    }
-
-    .max-content {
-        width: 100%;
-        min-width: 164.8vw;
-    }
-
-    .img-shows2 {
-        width: 100%;
-        min-width: 164vw;
-    }
-
-    .max-footer {
-        width: 100%;
-        min-width: 164.8vw;
-    }
-
-    .footer-banner {
-        width: 100%;
-        min-width: 164.8vw;
-    }
-}
-
-@media only screen and (min-width:576px) and (max-width:768px) {
-    .nav-links {
-        display: none;
-    }
-
-    .bar-lines {
-        display: flex;
-        margin-right: 76%;
-        top: 2.6%
-    }
-
-    .bar-menu {
-        width: 100%;
-        min-width: 69rem;
-        padding: 30px 10px;
-    }
-
-    .menu-nav {
-        padding: 30px 10px;
-    }
-
-    .bar-lines:hover .bar-menu {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .wrapper {
-        width: 100%;
-        min-width: 205vw;
-        height: 85vh;
+        height: 100%;
     }
 
     .wrapper-text h4 {
-        font-size: 24px;
+        font-size: 25px;
         letter-spacing: 2px;
     }
 
     .wrapper-text h1 {
-        font-size: 40px;
-        letter-spacing: 1px;
+        font-size: 50px;
+        letter-spacing: 2px;
     }
 
     .wrapper-text p {
-        font-size: 20px;
-        letter-spacing: 1px;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .herobutton-content {
+        display: flex;
     }
 
     .btn3 {
@@ -188,43 +72,63 @@
         font-size: 20px;
     }
 
-    .center {
-        width: 100%;
-        min-width: 200vw;
+    section .imges {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .img-shows {
         width: 100%;
-        min-width: 205vw;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .carders {
+        width: 43%;
     }
 
     .carders h4 {
-        font-size: 18px;
+        font-size: 20px;
         letter-spacing: 2px;
     }
 
     .carders h2 {
-        font-size: 24px;
+        font-size: 30px;
         letter-spacing: 1px;
     }
 
     .carders p {
-        font-size: 18px;
-        letter-spacing: 1px;
+        font-size: 25px;
+        letter-spacing: 2px;
     }
 
     .timetable {
         width: 100%;
-        min-width: 205vw;
     }
 
     .time-back {
-        height: 67vh;
+        height: 60vh;
     }
 
     .shows-schedule {
         flex-direction: column;
         gap: 4rem;
+    }
+
+    .schedule-text {
+        font-size: 25px;
+        letter-spacing: 1px;
+        gap: 7rem;
+    }
+
+    .shows-schedule span {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .shows-schedule p {
+        font-size: 15px;
+        letter-spacing: 2px;
     }
 
     .max-content {
@@ -234,57 +138,287 @@
     .max-content1 {
         display: block;
         width: 100%;
-        min-width: 205vw;
     }
 
     .max-link {
         padding: 80px 10px;
-        width: max-content;
-        margin: 0 auto;
+        width: 100%;
+    }
+
+    .max-link h2 {
+        font-size: 33px;
+        width: 100%;
+        text-align: center;
     }
 
     #max-content {
         display: flex;
         justify-content: center;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .btn5 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .img-shows2 {
         width: 100%;
-        min-width: 205vw;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .carders2 {
+        width: 43%;
     }
 
     .carders2 h4 {
-        font-size: 15px;
-        letter-spacing: 1px;
+        font-size: 20px;
+        letter-spacing: 2px;
     }
 
     .carders2 h2 {
-        font-size: 24px;
-        letter-spacing: 1px;
+        font-size: 30px;
+        letter-spacing: 2px;
     }
 
     .carders2 p {
-        font-size: 18px;
-        letter-spacing: 1px;
+        font-size: 25px;
+        letter-spacing: 2px;
     }
 
     .max-footer {
         width: 100%;
-        min-width: 205vw;
+    }
+
+    .footer-content p {
+        font-size: 25px;
+        font-weight: bold;
     }
 
     .footer-banner {
         width: 100%;
-        min-width: 205vw;
+        height: 100%;
     }
 
     .footer-banner-content a {
         font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .footer-banner-links a {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .footer-banner-text {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+}
+
+@media only Screen and (min-width:769px) and (max-width:991px) {
+    .nav-links {
+        display: none;
+    }
+
+    .bar-lines {
+        display: flex;
+        width: 90%;
+        top: 2.6%
+    }
+
+    section nav .btn2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    section nav .btn1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .bar-menu {
+        width: 100%;
+        min-width: 65rem;
+        padding: 30px 53px;
+    }
+
+    .menu-nav {
+        padding: 30px 39px;
+        font-size: 18px;
+    }
+
+    .bar-lines:hover .bar-menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper-text {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper-text h4 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-text h1 {
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-text p {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .herobutton-content {
+        display: flex;
+    }
+
+    .btn3 {
+        font-size: 20px;
+    }
+
+    .btn4 {
+        font-size: 20px;
+    }
+
+    section .imges {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .img-shows {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .carders {
+        width: 43%;
+    }
+
+    .carders h4 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .carders h2 {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .carders p {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .timetable {
+        width: 100%;
+    }
+
+    .time-back {
+        height: 60vh;
+    }
+
+    .shows-schedule {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .schedule-text {
+        font-size: 25px;
+        letter-spacing: 1px;
+        gap: 7rem;
+    }
+
+    .shows-schedule span {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .shows-schedule p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .max-content {
+        display: none;
+    }
+
+    .max-content1 {
+        display: block;
+        width: 100%;
+    }
+
+    .max-link {
+        padding: 80px 10px;
+        width: 100%;
+    }
+
+    .max-link h2 {
+        font-size: 33px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #max-content {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .btn5 {
+        font-size: 15px;
+    }
+
+    .img-shows2 {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .carders2 {
+        width: 43%;
+    }
+
+    .carders2 h4 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .carders2 h2 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .carders2 p {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .max-footer {
+        width: 100%;
+    }
+
+    .footer-content p {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .footer-banner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-banner-content a {
+        font-size: 17px;
         letter-spacing: 1px;
     }
 
@@ -297,28 +431,38 @@
         font-size: 18px;
         letter-spacing: 1px;
     }
-
 }
 
-@media only screen and (max-width:575px) {
+@media only screen and (min-width:576px) and (max-width:768px) {
     .nav-links {
         display: none;
     }
 
     .bar-lines {
         display: flex;
-        margin-right: 76%;
-        top: 1.6%
+        width: 90%;
+        top: 2.6%
+    }
+
+    section nav .btn2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    section nav .btn1 {
+        font-size: 15px;
+        font-weight: 600;
     }
 
     .bar-menu {
         width: 100%;
-        min-width: 69rem;
-        padding: 30px 10px;
+        min-width: 52rem;
+        padding: 30px 4px;
     }
 
     .menu-nav {
-        padding: 30px 10px;
+        padding: 27px 87px;
+        font-size: 15px;
     }
 
     .bar-lines:hover .bar-menu {
@@ -326,28 +470,17 @@
         flex-wrap: nowrap;
     }
 
-    .btn1 {
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-
-    .btn2 {
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-
     .wrapper {
         width: 100%;
-        min-width: 317vw;
-        height: 85vh;
     }
 
     .wrapper-text {
-        height: 124%;
+        width: 100%;
+        height: 100%;
     }
 
     .wrapper-text h4 {
-        font-size: 27px;
+        font-size: 20px;
         letter-spacing: 2px;
     }
 
@@ -357,67 +490,58 @@
     }
 
     .wrapper-text p {
-        font-size: 27px;
+        font-size: 20px;
         letter-spacing: 2px;
     }
 
+    .herobutton-content {
+        display: flex;
+    }
+
     .btn3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .btn4 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
-    .center {
-        width: 100%;
-        min-width: 300vw;
-    }
-    section .imges{
-        width: 317%;
+    section .imges {
         display: flex;
         justify-content: space-evenly;
     }
 
     .img-shows {
         width: 100%;
-        min-width: 300vw;
         flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .carders {
-        width: 44.4%;
-    }
-
-    .carders img {
-        height: 52vh;
+        width: 43%;
     }
 
     .carders h4 {
-        font-size: 24px;
+        font-size: 15px;
         letter-spacing: 2px;
     }
 
     .carders h2 {
-        font-size: 27px;
+        font-size: 20px;
         letter-spacing: 1px;
     }
 
     .carders p {
-        font-size: 27px;
+        font-size: 17px;
         letter-spacing: 2px;
     }
 
     .timetable {
         width: 100%;
-        min-width: 317vw;
     }
 
     .time-back {
-        height: 67vh;
+        height: 60vh;
     }
 
     .shows-schedule {
@@ -426,17 +550,18 @@
     }
 
     .schedule-text {
-        font-size: 22px;
-        letter-spacing: 2px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        gap: 7rem;
     }
 
     .shows-schedule span {
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 1px;
     }
 
     .shows-schedule p {
-        font-size: 21px;
+        font-size: 15px;
         letter-spacing: 2px;
     }
 
@@ -447,69 +572,295 @@
     .max-content1 {
         display: block;
         width: 100%;
-        min-width: 317vw;
     }
 
     .max-link {
         padding: 80px 10px;
-        width: max-content;
-        margin: 0 auto;
+        width: 100%;
+    }
+
+    .max-link h2 {
+        font-size: 33px;
+        width: 100%;
+        text-align: center;
     }
 
     #max-content {
         display: flex;
         justify-content: center;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .btn5 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .img-shows2 {
         width: 100%;
-        min-width: 317vw;
         flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
+        gap: 1rem;
     }
 
     .carders2 {
-        width: 55.4%;
-    }
-
-    .carders2 img {
-        height: 45vh;
+        width: 43%;
     }
 
     .carders2 h4 {
-        font-size: 24px;
+        font-size: 15px;
         letter-spacing: 2px;
     }
 
     .carders2 h2 {
-        font-size: 27px;
+        font-size: 20px;
         letter-spacing: 2px;
     }
 
     .carders2 p {
-        font-size: 27px;
+        font-size: 17px;
         letter-spacing: 2px;
     }
 
     .max-footer {
         width: 100%;
-        min-width: 317vw;
     }
 
     .footer-banner {
         width: 100%;
-        min-width: 317vw;
+        height: 100%;
+    }
+
+    .footer-banner-content a {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .footer-banner-links a {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .footer-banner-text {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .nav-links {
+        display: none;
+    }
+
+    .bar-lines {
+        display: flex;
+        width: 99%;
+        top: 4.6%;
+    }
+
+    section nav .logo img {
+        margin: 40%;
+    }
+
+    section nav .btn2 {
+        padding: 6px 3px;
+        font-size: 12px;
+    }
+
+    section nav .btn1 {
+        padding: 5px 4px;
+        font-size: 12px;
+    }
+
+    .bar-menu {
+        width: 100%;
+        min-width: 33rem;
+        padding: 30px 10px;
+    }
+
+    .menu-nav {
+        padding: 12px 80px;
+        font-size: 14px;
+    }
+
+    .bar-lines:hover .bar-menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper-text {
+        width: 100%;
+        height: 117%;
+    }
+
+    .wrapper-text h4 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-text h1 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper-text p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .herobutton-content {
+        display: flex;
+    }
+
+    .btn3 {
+        font-size: 10px;
+    }
+
+    .btn4 {
+        font-size: 10px;
+    }
+
+    section .imges {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .img-shows {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .carders {
+        width: 88%;
+    }
+
+    .carders h4 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .carders h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .carders p {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .timetable {
+        width: 100%;
+    }
+
+    .time-back {
+        height: 60vh;
+    }
+
+    .shows-schedule {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .schedule-text {
+        font-size: 12px;
+        letter-spacing: 1px;
+        gap: 7rem;
+    }
+
+    .shows-schedule span {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .shows-schedule p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .max-content {
+        display: none;
+    }
+
+    .max-content1 {
+        display: block;
+        width: 100%;
+    }
+
+    .max-link {
+        padding: 80px 10px;
+        width: 100%;
+    }
+
+    .max-link h2 {
+        font-size: 33px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #max-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .btn5 {
+        font-size: 15px;
+    }
+
+    .img-shows2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carders2 {
+        width: 88%;
+    }
+
+    .carders2 h4 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .carders2 h2 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .carders2 p {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .max-footer {
+        width: 100%;
+    }
+
+    .footer-banner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-banner-content {
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-banner-content a {
         font-size: 20px;
         letter-spacing: 1px;
+    }
+
+    .footer-banner-links {
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-banner-links a {
